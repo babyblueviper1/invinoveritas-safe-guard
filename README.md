@@ -1,6 +1,6 @@
 # invinoveritas Safe{Wallet} Guard (reference)
 
-**A Safe{Wallet} Transaction Guard *and* Module Guard, in one contract, that turns an independent, recomputable [`/review`](https://api.babyblueviper.com) verdict into an on-chain, fail-closed pre-execution gate for a DAO treasury Safe.**
+**A Safe{Wallet} Transaction Guard *and* Module Guard, in one contract, that turns an independent, recomputable [`/review`](https://invinoveritas.dev) verdict into an on-chain, fail-closed pre-execution gate for a DAO treasury Safe.**
 
 Settlement-side sibling of [`../erc7579`](../erc7579) (the same pattern for ERC-7579 modular smart accounts) — same verdict-commitment construction, different venue. A DAO treasury proposing a transfer/swap/contract call gets exactly the same property an ERC-7579 account gets: it cannot execute a covered transaction unless an independent approve-verdict binding to that *exact* transaction has been recorded and signature-verified.
 
